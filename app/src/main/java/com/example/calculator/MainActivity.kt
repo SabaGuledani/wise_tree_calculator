@@ -91,10 +91,9 @@ class MainActivity : AppCompatActivity() {
 
 
     fun equalsclick(clickedView: View) {
-        var ragac = tvResult.text.toString()
         var result = ""
 
-            if (ragac != "" && operation != "") {
+            if (tvResult.text.toString() != "" && operation != "") {
                 var secondOperand = tvResult.text.toString().toDouble()
 
                 when (operation) {
